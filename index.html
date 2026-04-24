@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>My Portfolio</title>
+  <title>VLSI Portfolio</title>
   <link rel="stylesheet" href="style.css" />
   <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet"/>
 </head>
@@ -15,7 +15,7 @@
 
   <!-- Header -->
   <header>
-    <div class="logo">PORTFOLIO</div>
+    <div class="logo">VLSI PORTFOLIO</div>
     <nav>
       <button class="nav-btn" data-target="about">About</button>
       <button class="nav-btn" data-target="skills">Skills</button>
@@ -27,9 +27,9 @@
 
   <!-- Hero -->
   <section class="hero" id="about">
-    <div class="hero-tag">[ AVAILABLE FOR WORK ]</div>
+    <div class="hero-tag">[ OPEN TO VLSI ROLES ]</div>
     <h1 class="hero-name">Ravi <span class="highlight">Nani</span><br/>Venkata</h1>
-    <p class="hero-sub">Full-Stack Developer · Designer · Creator</p>
+    <p class="hero-sub">VLSI Engineer · Digital Design · Verification</p>
     <div class="hero-btns">
       <button class="btn-primary" onclick="scrollTo('skills')">View My Work</button>
       <button class="btn-outline" onclick="scrollTo('contact')">Say Hello →</button>
@@ -41,104 +41,109 @@
   <!-- Skills -->
   <section class="section" id="skills">
     <div class="section-label">02 / SKILLS</div>
-    <h2 class="section-title">What I Do</h2>
+    <h2 class="section-title">Core Expertise</h2>
     <div class="cards-grid">
+
       <div class="card skill-card" data-color="#ff6b6b">
         <div class="card-icon">⚡</div>
-        <h3>Frontend Dev</h3>
-        <p>HTML, CSS, JavaScript, React, Vue — pixel-perfect interfaces with smooth interactions.</p>
-        <div class="card-tags"><span>React</span><span>CSS</span><span>JS</span></div>
+        <h3>Digital Design</h3>
+        <p>RTL design using Verilog & SystemVerilog. Strong understanding of FSMs, pipelines, and timing.</p>
+        <div class="card-tags"><span>Verilog</span><span>RTL</span><span>FSM</span></div>
       </div>
+
       <div class="card skill-card" data-color="#6bcbff">
-        <div class="card-icon">🛠</div>
-        <h3>Backend Dev</h3>
-        <p>Node.js, Python, REST APIs, databases — robust systems that scale.</p>
-        <div class="card-tags"><span>Node</span><span>Python</span><span>SQL</span></div>
+        <div class="card-icon">🧪</div>
+        <h3>Verification</h3>
+        <p>Functional verification using UVM methodology, testbench creation, and debugging.</p>
+        <div class="card-tags"><span>UVM</span><span>SV</span><span>Testbench</span></div>
       </div>
+
       <div class="card skill-card" data-color="#b46bff">
-        <div class="card-icon">🎨</div>
-        <h3>UI/UX Design</h3>
-        <p>Figma, Adobe XD — designing experiences people actually enjoy using.</p>
-        <div class="card-tags"><span>Figma</span><span>XD</span><span>Design</span></div>
+        <div class="card-icon">🔬</div>
+        <h3>VLSI Tools</h3>
+        <p>Hands-on with EDA tools for synthesis, simulation, and waveform analysis.</p>
+        <div class="card-tags"><span>Cadence</span><span>Synopsys</span><span>Modelsim</span></div>
       </div>
+
       <div class="card skill-card" data-color="#6bffb4">
-        <div class="card-icon">☁️</div>
-        <h3>DevOps & Cloud</h3>
-        <p>AWS, Docker, CI/CD pipelines — keeping things running smoothly.</p>
-        <div class="card-tags"><span>AWS</span><span>Docker</span><span>CI/CD</span></div>
+        <div class="card-icon">📐</div>
+        <h3>Physical Design</h3>
+        <p>Basic knowledge of floorplanning, placement, routing, and timing closure.</p>
+        <div class="card-tags"><span>PD</span><span>STA</span><span>Layout</span></div>
       </div>
+
     </div>
   </section>
 
   <!-- Education -->
   <section class="section alt-section" id="education">
     <div class="section-label">03 / EDUCATION</div>
-    <h2 class="section-title">My Journey</h2>
+    <h2 class="section-title">Academic Background</h2>
     <div class="timeline">
+
       <div class="timeline-item card" data-color="#ffd86b">
         <div class="timeline-year">2020 – 2024</div>
-        <h3>B.Tech Computer Science</h3>
-        <div class="timeline-school">University of Technology</div>
-        <p>Graduated with distinction. Specialised in software engineering, algorithms, and machine learning.</p>
+        <h3>B.Tech Electronics & Communication</h3>
+        <div class="timeline-school">XYZ Engineering College</div>
+        <p>Focused on VLSI Design, Digital Electronics, and Embedded Systems.</p>
       </div>
+
       <div class="timeline-item card" data-color="#ff9f6b">
         <div class="timeline-year">2018 – 2020</div>
-        <h3>Higher Secondary Education</h3>
-        <div class="timeline-school">City Public School</div>
-        <p>Science stream with Mathematics and Computer Science. School topper in programming.</p>
+        <h3>Intermediate (MPC)</h3>
+        <div class="timeline-school">ABC Junior College</div>
+        <p>Strong foundation in Mathematics, Physics, and problem-solving.</p>
       </div>
+
       <div class="timeline-item card" data-color="#6bffda">
-        <div class="timeline-year">2022</div>
-        <h3>AWS Certified Developer</h3>
-        <div class="timeline-school">Amazon Web Services</div>
-        <p>Certification in cloud architecture, deployment, and management of scalable applications.</p>
+        <div class="timeline-year">2023</div>
+        <h3>VLSI Certification</h3>
+        <div class="timeline-school">Online Training Program</div>
+        <p>Completed training in RTL Design, Verification, and ASIC flow.</p>
       </div>
+
     </div>
   </section>
 
   <!-- Hobbies -->
   <section class="section" id="hobbies">
     <div class="section-label">04 / HOBBIES</div>
-    <h2 class="section-title">Beyond the Screen</h2>
+    <h2 class="section-title">Beyond Engineering</h2>
     <div class="hobbies-grid">
+
       <div class="hobby-card card" data-color="#ff6b9d">
         <span class="hobby-emoji">📷</span>
         <h3>Photography</h3>
-        <p>Capturing moments and playing with light.</p>
+        <p>Capturing creative perspectives.</p>
       </div>
+
       <div class="hobby-card card" data-color="#6b9dff">
         <span class="hobby-emoji">🎵</span>
         <h3>Music</h3>
-        <p>Guitar player. Jazz and lo-fi enthusiast.</p>
+        <p>Listening and relaxing with music.</p>
       </div>
+
       <div class="hobby-card card" data-color="#ffb36b">
-        <span class="hobby-emoji">🧩</span>
-        <h3>Puzzles & Chess</h3>
-        <p>Strategic thinking on and off the board.</p>
+        <span class="hobby-emoji">🧠</span>
+        <h3>Problem Solving</h3>
+        <p>Enjoy logical puzzles and coding challenges.</p>
       </div>
+
       <div class="hobby-card card" data-color="#6bffb4">
-        <span class="hobby-emoji">✈️</span>
-        <h3>Travel</h3>
-        <p>Exploring cultures, cuisines, and landscapes.</p>
+        <span class="hobby-emoji">🏏</span>
+        <h3>Cricket</h3>
+        <p>Team sports and outdoor activities.</p>
       </div>
-      <div class="hobby-card card" data-color="#d46bff">
-        <span class="hobby-emoji">📚</span>
-        <h3>Reading</h3>
-        <p>Sci-fi, philosophy, and tech non-fiction.</p>
-      </div>
-      <div class="hobby-card card" data-color="#ff6b6b">
-        <span class="hobby-emoji">🏃</span>
-        <h3>Running</h3>
-        <p>Morning runs to clear the mind and stay sharp.</p>
-      </div>
+
     </div>
   </section>
 
   <!-- Contact -->
   <section class="section contact-section" id="contact">
     <div class="section-label">05 / CONTACT</div>
-    <h2 class="section-title">Let's Build Something</h2>
-    <p class="contact-sub">Open to freelance, full-time roles, and cool projects.</p>
+    <h2 class="section-title">Let’s Connect</h2>
+    <p class="contact-sub">Looking for opportunities in VLSI Design & Verification.</p>
+
     <div class="contact-btns">
       <button class="btn-primary" onclick="alert('Opening Email...')">📧 Email Me</button>
       <button class="btn-outline" onclick="alert('Opening LinkedIn...')">🔗 LinkedIn</button>
