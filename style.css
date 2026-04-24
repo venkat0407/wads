@@ -1,20 +1,62 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', sans-serif;
+    scroll-behavior: smooth;
 }
 
+/* Hero */
 .hero {
     height: 100vh;
-    background: linear-gradient(to right, #007bff, #6610f2);
+    background: linear-gradient(to right, #1e3c72, #2a5298);
 }
 
 .highlight {
     color: #ffd700;
 }
 
-.card {
-    transition: transform 0.3s;
+/* Navbar spacing */
+section {
+    padding-top: 80px;
 }
 
-.card:hover {
-    transform: scale(1.05);
+/* Timeline */
+.timeline-item {
+    margin: 20px 0;
+    padding: 15px;
+    border-left: 3px solid #007bff;
+    background: #f8f9fa;
+}
+
+/* Project cards */
+.project-card {
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+    background: #007bff;
+    color: white;
+}
+
+/* Hobbies */
+#hobbies .col-md-3 {
+    font-size: 20px;
+    padding: 20px;
+    transition: 0.3s;
+}
+
+#hobbies .col-md-3:hover {
+    background: #007bff;
+    color: white;
+    border-radius: 10px;
+}
+
+/* Buttons */
+.btn {
+    border-radius: 25px;
+}
+
+/* Contact */
+input {
+    border-radius: 20px;
 }
