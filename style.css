@@ -1,6 +1,13 @@
+/* General */
 body {
-    font-family: 'Segoe UI', sans-serif;
+    font-family: Arial;
     scroll-behavior: smooth;
+    cursor: none;
+}
+
+/* Navbar scroll */
+.navbar.scrolled {
+    background: #007bff !important;
 }
 
 /* Hero */
@@ -10,23 +17,22 @@ body {
 }
 
 .highlight {
-    color: #ffd700;
+    color: gold;
 }
 
-/* Navbar spacing */
 section {
     padding-top: 80px;
 }
 
 /* Timeline */
 .timeline-item {
-    margin: 20px 0;
+    margin: 20px;
     padding: 15px;
-    border-left: 3px solid #007bff;
+    border-left: 3px solid blue;
     background: #f8f9fa;
 }
 
-/* Project cards */
+/* Cards */
 .project-card {
     transition: 0.3s;
     cursor: pointer;
@@ -40,7 +46,6 @@ section {
 
 /* Hobbies */
 #hobbies .col-md-3 {
-    font-size: 20px;
     padding: 20px;
     transition: 0.3s;
 }
@@ -51,12 +56,44 @@ section {
     border-radius: 10px;
 }
 
-/* Buttons */
-.btn {
-    border-radius: 25px;
+/* Cursor */
+.cursor {
+    width: 10px;
+    height: 10px;
+    background: blue;
+    position: fixed;
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 9999;
 }
 
-/* Contact */
-input {
-    border-radius: 20px;
+.cursor-follower {
+    width: 30px;
+    height: 30px;
+    border: 2px solid blue;
+    position: fixed;
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 9998;
+}
+
+/* Ripple */
+.ripple {
+    position: fixed;
+    border-radius: 50%;
+    background: rgba(0,123,255,0.5);
+    transform: scale(0);
+    animation: ripple 0.6s linear;
+}
+
+@keyframes ripple {
+    to {
+        transform: scale(4);
+        opacity: 0;
+    }
+}
+
+/* Active section */
+.active-section {
+    background: rgba(0,123,255,0.1);
 }
