@@ -334,6 +334,22 @@ nav { display: flex; gap: 0.5rem; align-items: center; }
   margin-bottom: 1rem;
   transition: transform 0.3s ease;
 }
+.farming-card {
+    background-image: url('https://images.unsplash.com/photo-1500382017468-9049fed747ef'); /* farming image */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    position: relative;
+    overflow: hidden;
+}
+
+/* dark overlay for readability */
+.farming-card .overlay {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    height: 100%;
+    width: 100%;
+}
 .hobby-card:hover .hobby-emoji { transform: scale(1.25) rotate(-5deg); }
 .hobby-card h3 {
   font-family: var(--font-display);
